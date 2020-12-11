@@ -10,7 +10,7 @@ python3 samples/coco/coco.py train --dataset=/path/to/coco/ --model=coco
 
 # Train a new model starting from ImageNet weights
 
-python3 samples/coco/coco.py train --dataset=/path/to/coco/ --model=imagenet
+python3 samples/coco/coco.py train --dataset=/samples/coco/dataset/ --model=imagenet
 
 # Continue training a model that you had trained earlier
 
