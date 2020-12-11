@@ -118,16 +118,8 @@ class CocoDataset(utils.Dataset):
             # All classes
             class_ids = sorted(coco.getCatIds())
 
-        # All images or a subset?
-        if class_ids:
-            image_ids = []
-            for id in class_ids:
-                image_ids.extend(list(coco.getImgIds(catIds=[id])))
-            # Remove duplicates
-            image_ids = list(set(image_ids))
-        else:
-            # All images
-            image_ids = list(coco.imgs.keys())
+        # All images
+        image_ids = list(coco.imgs.keys())
 
         # Add classes
         for i in class_ids:
