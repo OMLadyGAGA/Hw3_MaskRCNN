@@ -500,7 +500,7 @@ if __name__ == '__main__':
         print("Fine tune Resnet stage 4 and up")
         model.train(dataset_train, dataset_val,
                     learning_rate=config.LEARNING_RATE,
-                    epochs=600,
+                    epochs=60,
                     layers='4+',
                     augmentation=augmentation)
 
