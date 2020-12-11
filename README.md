@@ -23,4 +23,4 @@ python3 samples/coco/coco.py train --dataset=/path/to/coco/ --model=/path/to/wei
 python3 samples/coco/coco.py train --dataset=/path/to/coco/ --model=last
 ```
 
-I use second instruction to train the dataset this courses provided. According to the [this post](https://github.com/matterport/Mask_RCNN?fbclid=IwAR2LkSVtpX0zl_WczTFgjdWAbzfftV1qrwAo8V8BQTwoeb8KDgs3rw3dUeE) second instruction able to exploit imagenet weight to train custom dataset.
+I use second instruction to train the dataset this course provided. According to the [this post](https://github.com/matterport/Mask_RCNN?fbclid=IwAR2LkSVtpX0zl_WczTFgjdWAbzfftV1qrwAo8V8BQTwoeb8KDgs3rw3dUeE) second instruction able to exploit imagenet weight to train custom dataset.
